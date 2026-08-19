@@ -23,7 +23,7 @@
 ╚═╝  ╚═╝╚═╝       ╚═╝    ╚═════╝  ╚═════╝ ╚══════╝╚══════╝
 ```
 
-> NOTE: Ascii Art Generator: https://patorjk.com/software/taag/#p=display&f=ANSI%20Shadow&t=Astro%205
+> NOTE: Ascii Art Generator: https://patorjk.com/software/taag/#p=display&f=ANSI%20Shadow&t=Practicalli%205
 
 ## Book Overview
 
@@ -75,11 +75,6 @@ All sponsorship funds are used to support the continued development of [Practica
 Thanks to [Cognitect](https://www.cognitect.com/), [Nubank](https://nubank.com.br/) and a wide range of other [sponsors](https://github.com/sponsors/practicalli-johnny#sponsors) for your continued support
 
 
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=practicalli/clojure-ai-tools&type=Date)](https://star-history.com/#practicalli/clojure&Date)
-
-
 ## GitHub Actions
 
 The megalinter GitHub actions will run when a pull request is created,checking basic markdown syntax.
@@ -93,38 +88,49 @@ Publish book workflow installs Material for MkDocs version 9
 
 ## Local development
 
-Install mkdocs version 9 using the Python pip package manager
+Zensical can be installed locally via vu or pip.  Practicalli uses uv and installs Zensical as a tool for simplicity.
+
+CLI Commands are wrapped in tasks defined within the `Makefile`, providing a simpler and consistent user experience.
+
+[Zensical - Practcialli Engineering Playbook](https://practical.li/engineering-playbook/technical-writing/static-site/zensical/)
+
+Clone the repository and change into the root of the project.
 
 ```shell
-pip install mkdocs-material=="9.5"
+git clone https://github.com/practicalli/cycling
 ```
 
-Install the plugins used by the Practicalli site using Pip (these are also installed in the GitHub Action workflow)
+Install Zensical as a tool using `uv` (updating if there is a new version).
 
 ```shell
-pip3 install mkdocs-material mkdocs-callouts mkdocs-glightbox mkdocs-git-revision-date-localized-plugin mkdocs-redirects pillow cairosvg
+make docs-install
 ```
 
-> pillow and cairosvg python packages are required for [Social Cards](https://squidfunk.github.io/mkdocs-material/setup/setting-up-social-cards/)
-
-Fork the GitHub repository and clone that fork to your computer,
+Or use the uv command:
 
 ```shell
-git clone https://github.com/<your-github-account>/<repository>.git
+uv tool install zensical --with catppuccin-zensical --upgrade
 ```
 
-Run a local server from the root of the cloned project
+
+Build the website and serve locally at [http://localhost:8000](http://localhost:8000)
 
 ```shell
 make docs
 ```
 
-The website will open at <http://localhost:8000>
-
-If making smaller changes, then only rebuild the content that changes, speeding up the local development process
+Or use the zensical command:
 
 ```shell
-make docs-changed
+zensical serve --dev-addr localhost:7777
 ```
 
-> NOTE: navigation changes may not be correctly reflected without reloading the page in the web browser or carrying out a full `make docs` build
+---
+
+Specific command if now using make:
+
+Create a virtual python in the root of the project.
+
+```shell
+uv tool install zensical --upgrade
+```
