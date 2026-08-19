@@ -48,6 +48,7 @@ Copyright &copy; 2026 Practicalli
 nav = [
   { "Introduction" = [
     { "Introduction" = "index.md"},
+    { "Clojure Setup" = "clojure-setup.md" },
     { "Contributing" = "https://practical.li/contributing/"},
     { "Zensical Tips" = "https://practical.li/writing-tips-zensical/"},
   ]},
