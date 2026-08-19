@@ -7,3 +7,5 @@
 - project: new clojure ai tools mkdocs book
 
 ### Changed
+
+- ci(github): 🔧 practicalli workflows for zensical static site generator project
