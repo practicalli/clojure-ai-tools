@@ -2,10 +2,21 @@
 
 A hands-on guide to using using Artificial Intelligence tools that support software engineering with Clojure
 
+!!! WARNING "AI services require a financial subscription to access the latest Large Language Models and to remove strict limits on tokens (the number of words that can be used to ask the AI questions)"
+
+!!! WARNING "Integrating AI into your Clojure workflow has a considerable learning curve and time to value"
+
+!!! WARNING "AI tools and services will take time to mature and become easier to setup and use"
+
+
+
 !!! QUOTE - "John Stevenson, Practical.li"
     Future engineering teams will use highly effective Artificial Intelligence tools to make software development more effecive and rewarding. How much of that future has already arrived?
 
 [:fontawesome-solid-book-open: Why Clojure - Concepts of the Clojure Language](introduction/concepts/index.md){.md-button}
+
+
+[Awesome Clojure LLM](https://github.com/iwillig/awesome-clojure-llm){target=_blank}
 
 
 ## Clojure REPL Driven Development
@@ -13,6 +24,7 @@ A hands-on guide to using using Artificial Intelligence tools that support softw
 ![Clojure Repl workflow - concept](https://github.com/practicalli/graphic-design/blob/live/clojure/clojure-repl-workflow-concept.png?raw=true){loading=lazy}
 
 Adopting AI tools should complement the highly effective feedback from a REPL connected editor.
+
 
 ### Clojure Language
 
