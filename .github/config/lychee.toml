@@ -1,6 +1,6 @@
 # ----------------------------------------
 # Base URL or website root directory to check relative URLs.
-base = "https://practical.li/clojure/"
+base = "https://practical.li/clojure-ai-tools/"
 # ----------------------------------------
 
 # -- Request -----------------------------
