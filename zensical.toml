@@ -47,43 +47,35 @@ Copyright &copy; 2026 Practicalli
 
 nav = [
   { "Introduction" = [
-    { "Introduction" = "index.md"},
+    "index.md",
     { "Clojure Setup" = "clojure-setup.md" },
     { "Contributing" = "https://practical.li/contributing/"},
     { "Zensical Tips" = "https://practical.li/writing-tips-zensical/"},
   ]},
 
-  { "Install" = [
-    { "Install" = "install/index.md" },
+  { "Install" =  "install/index.md" },
+
+  { "Prompt" = [
+    "prompt/index.md",
   ]},
 
-  { "Prompts" = [
-      { "Events" = "events/index.md" },
-      { "Audax" = "events/audax.md" },
-      { "Sportive" = "events/sportive.md" },
-      { "Multi-Day" = "events/multi-day.md" },
-      { "Ride experiences" = "events/experiences.md" },
-      { "Team Rocket Plans" = "events/team-rocket.md" },
-    ]},
-
   { "Agents" = [
-    { "Routes" = "routes/index.md" },
-    { "Planning" = "routes/route-planning.md" },
-    { "Curated Routes" = "routes/curated-routes.md" },
-    { "Hill Challenges" = "routes/hills.md" },
+    "agents/index.md",
   ]},
 
   { "Meta Context Protocol" = [
-    { "Training" = "mcp/index.md" },
+    "mcp/index.md",
   ]},
 
   { "Workflow" = [
-    { "Workflow" = "workflow/index.md" },
+    "workflow/index.md",
   ]},
 
   { "Reference" = [
-    { "Reference" = "reference/index.md" },
+    "reference/index.md",
   ]},
+
+  { "Zensical Tips" = "https://practical.li/zensical-tips/" },
 ]
 
 
