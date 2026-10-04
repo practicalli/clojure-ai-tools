@@ -13,3 +13,4 @@
 - build(overrides): 💄 update page not found template
 - docs(readme): 📝 add zensical local development workflow
 - feat(intro): 📝 start to simplify the Clojure setup page
+- build(make): 🔧 `deps-update` & `deps-upgrade` tasks
