@@ -49,6 +49,8 @@ nav = [
   { "Introduction" = [
     "index.md",
     { "Clojure Setup" = "clojure-setup.md" },
+    { "Clojure REPL Workflow" = "introduction/clojure-repl-workflow.md" },
+    { "Clojure Concepts" = "introduction/clojure-concepts.md" },
     { "Contributing" = "https://practical.li/contributing/"},
     { "Zensical Tips" = "https://practical.li/writing-tips-zensical/"},
   ]},

@@ -1,10 +1,10 @@
-# REPL Driven Development
+# Clojure REPL Workflow
 
 ![Clojure repl driven development](https://raw.githubusercontent.com/practicalli/graphic-design/live/clojure/clojure-repl-workflow-concept.png){loading=lazy}
 
-!!! Quote "Always be REPL'ing"
+!!! Quote "Always be REPL'ing - Johnny Stevenson, founder of Practical.li"
     Coding without a REPL feels limiting. The REPL provides fast feedback from code as its crafted, testing assumptions and design choices every step of the journey to a solution
-     - John Stevenson, Practical.li
+
 
 Clojure is a powerful, fun and highly productive language for developing applications and services.
  The clear language design is supported by a powerful development environment known as the REPL (read, evaluate, print, loop).  The REPL gives you instant feedback on what your code does and enables you to test either a single expression or run the whole application (including tests).
@@ -21,7 +21,9 @@ An effective Clojure workflow begins by running a REPL process.  Clojure express
 Design decisions and valuable data from REPL experiments can be codified as [specifications](#data-and-function-specifications) and [unit tests](#test-driven-development-and-repl-driven-development)
 
 !!! HINT "Practicalli REPL Reloaded Workflow"
-    The principles of REPL driven development are implemented in practice using the [Practicalli REPL Reloaded Workflow and supporting tooling](https://practical.li/clojure/clojure-cli/repl-reloaded/){target=_blank}.  This workflow uses Portal to inspect all evaluation results and log events, hot-load libraries into the running REPL process and reloads namespaces to support major refactor changes.
+    The principles of REPL driven development are implemented in practice using the [Practicalli REPL Reloaded Workflow and supporting tooling](https://practical.li/clojure/clojure-cli/repl-reloaded/){target=_blank}.
+
+    This workflow uses Portal to inspect all evaluation results and log events, hot-load libraries into the running REPL process and reloads namespaces to support major refactor changes.
 
 ## Evaluating source code
 
@@ -192,7 +194,8 @@ Add a [:fontawesome-solid-book-open: continuous integration service](https://pra
 
 - [:globe_with_meridians: CircleCI](https://practical.li/clojure/continuous-integration/circle-ci/){target=_blank} provides a simple to use service that supports Clojure projects.
 - [:globe_with_meridians: GitHub Workflows](https://docs.github.com/en/actions/using-workflows){target=_blank} and [GitHub actions marketplace](https://github.com/marketplace?type=actions){target=_blank} to quickly build a tailored continuous integration service, e.g. [Setup Clojure GitHub Action](https://github.com/marketplace/actions/setup-clojure){target=_blank}.
-- [:globe_with_meridians: GitLab CI](https://docs.gitlab.com/ee/ci/introduction/index.html){target=_blank}
+
+[:globe_with_meridians: GitLab CI](https://docs.gitlab.com/ee/ci/introduction/index.html){target=_blank .md-button}
 
 ![Continuous Integration](https://raw.githubusercontent.com/practicalli/graphic-design/live/continuous-integration/continuous-integration-overview.svg)
 

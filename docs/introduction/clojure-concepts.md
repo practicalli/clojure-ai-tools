@@ -4,12 +4,18 @@ Clojure is an elegant language for a more civilized development experience.
 
 Clojure supports the creation of simple software systems using immutable values and encouraging a pragmatic approach to pure functional design.
 
-A simple syntax means Clojure is quick to learn and a wide range of open source libraries provides a rapid way to build any kind of software. Designed as a hosted language, Clojure runs on many platforms including the Java Virtual Machine, GraalVM, Microsoft.Net, JavaScript engines.  Simple host language interoperability provides access to libraries from a wide range of programming languages, further extending the reach of Clojure.
+A simple syntax means Clojure is quick to learn and a wide range of open source libraries provides a rapid way to build any kind of software.
+
+Designed as a hosted language, Clojure runs on many platforms including the Java Virtual Machine, GraalVM, Microsoft.Net, JavaScript engines.
+
+Simple host language interoperability provides access to libraries from a wide range of programming languages, further extending the reach of Clojure.
+
 
 !!! HINT "Experiment with the Clojure language to help understand concepts"
     Spend some time eevaluating code in the REPL and then revisit this section to get a deeper understanding of the design and philosophy of the Clojure approach to functional programming.
 
     Clojure concepts are easier to relate to whist practicing with Clojure and building Clojure software solutions.
+
 
 ## Ten Big Ideas plus one
 
@@ -35,8 +41,9 @@ Stuart Halloway presents [Clojure in 10 big ideas (plus one)](https://vimeo.com/
 <iframe src="https://player.vimeo.com/video/223240720" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 </p>
 
-* 2013 [RuPy slides](https://github.com/stuarthalloway/presentations/blob/master/Barnstorming_2013/ClojureInTenBigIdeas.pdf?raw=true){target=_blank}
-* 2017 [Chicago JUG slides](https://github.com/stuarthalloway/presentations/blob/master/ClojureInTenBigIdeas-Jun-2017.pdf?raw=true){target=_blank}
+- 2013 [RuPy slides](https://github.com/stuarthalloway/presentations/blob/master/Barnstorming_2013/ClojureInTenBigIdeas.pdf?raw=true){target=_blank}
+- 2017 [Chicago JUG slides](https://github.com/stuarthalloway/presentations/blob/master/ClojureInTenBigIdeas-Jun-2017.pdf?raw=true){target=_blank}
+
 
 ## Antithesis of Clojure and simple software design
 
